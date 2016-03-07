@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget version="0.2">
+	<title xml:lang="ko">인스타그램 위젯</title>
+	<title xml:lang="en">Instagram Widget</title>
+	<description xml:lang="ko">인스타그램에 있는 특정 사용자의 목록을 가져와서 보여줍니다.</description>
+	<description xml:lang="en">Get photos or videos from a user in instagram.com.</description>
+    <version>0.1.0.</version>
+    <date>2015-07-09</date>
+    <author email_address="mson0129@gmail.com" link="http://www.studio2b.kr/">
+		<name xml:lang="ko">Studio2b</name>
+		<name xml:lang="en">Studio2b</name>
+	</author>
+    <extra_vars>
+		<group>
+			<title xml:lang="ko">추출 대상</title>
+			<title xml:lang="en">Target</title>
+			<var id="mid_id" type="mid">
+				<name xml:lang="ko">인스타그램 모듈(지원 예정)</name>
+                <name xml:lang="en">Instagram Module</name>
+			</var>
+			<var id="client_id" type="text">
+				<name xml:lang="ko">클라이언트 아이디</name>
+                <name xml:lang="en">Client ID</name>
+			</var>
+			<var id="username" type="text">
+				<name xml:lang="ko">사용자 이름</name>
+                <name xml:lang="en">Username</name>
+			</var>
+			<var id="list_count" type="text">
+				<name xml:lang="ko">표시할 개수</name>
+                <name xml:lang="en">The number of items</name>
+			</var>
+		</group>
+    </extra_vars>
+</widget>

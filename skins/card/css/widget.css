@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+ul.XEWidgetInstagramSkinCardList {display: block; width: 100%; overflow: auto; white-space: nowrap;}
+	li.XEWidgetInstagramSkinCardListItem {display: inline-block; margin: 10px; width: 200px; height: 200px; border: 1px solid #CCC; box-shadow: 0 0 5px #CCC; white-space: normal; vertical-align:top; border-radius: 10px;}
+	li.XEWidgetInstagramSkinCardListItem img {width: 100%; border-radius: 10px;}

@@ -1,0 +1,11 @@
+<load target="./css/widget.css" cond="$colorset != 'layout'" />
+
+<div class='XEWidgetInstagramSkinCard'>
+	<ul class='XEWidgetInstagramSkinCardList'>
+<!--@foreach($data as $key=>$val)-->
+		<li class='XEWidgetInstagramSkinCardListItem'>
+			<a href='{$val[link]}' target='_blank'><img src='{$val[images][standard_resolution][url]}' /></a>
+		</li>
+<!--@end-->
+	</ul>
+</div>
